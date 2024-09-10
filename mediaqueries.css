@@ -120,7 +120,7 @@
   .typewriter {
     font-size: 1.25rem;
     margin-bottom: 1rem;
-    color: var(--secondary-color);
+    color: rgb(53, 53, 53);
     width: 0;
     margin: 0 auto;
     height: 40px;
@@ -138,5 +138,8 @@
       width: 100%;
       border: none;
     }
+  }
+  #overlay {
+    background-color: white;
   }
 }

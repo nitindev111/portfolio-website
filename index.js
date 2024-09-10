@@ -5,3 +5,21 @@ function toggleMenu() {
     menu.classList.toggle("open");
     icon.classList.toggle("open");
 }
+
+function viewResume() {
+    document.getElementById('overlay').style.display = "flex"
+    document.body.style.overflow = "hidden"
+}
+
+function closeOverlay() {
+    document.getElementById('overlay').style.display = 'none';
+    document.body.style.overflow = "scroll"
+
+}
+
+function downloadResume(url) {
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'Nitin_Dev_FullStack_Dev_Resume.pdf'; // Customize download file name
+    a.click();
+}
