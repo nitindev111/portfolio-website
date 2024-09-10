@@ -406,3 +406,35 @@ footer {
 footer p {
   text-align: center;
 }
+
+.typewriter {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color: var(--secondary-color);
+  width: 0;
+  height: 40px;
+  overflow: hidden;
+  animation: typing 3s steps(20, end) forwards, blink 0.75s infinite;
+  white-space: nowrap;
+  border-right: 0.2rem solid var(--secondary-color);
+  font-weight: 300;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+    /* border: none; */
+  }
+}
+
+@keyframes blink {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: #e3c4e5;
+  }
+}

@@ -107,10 +107,36 @@
     font-size: 1.25rem;
   }
 
+  .section__text__p1 {
+    font-size: 1.25rem;
+  }
+
   .title {
     font-size: 2rem;
   }
   .text-container {
     text-align: justify;
+  }
+  .typewriter {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+    width: 0;
+    margin: 0 auto;
+    height: 40px;
+    overflow: hidden;
+    animation: typing-mb 3s steps(20, end) forwards, blink 0.75s infinite;
+    white-space: nowrap;
+    border: none;
+  }
+
+  @keyframes typing-mb {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+      border: none;
+    }
   }
 }
