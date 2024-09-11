@@ -121,4 +121,9 @@
   #overlay {
     background-color: white;
   }
+
+  .project-details-container .about-containers .details-container:hover {
+    cursor: pointer;
+    transform: none;
+  }
 }
