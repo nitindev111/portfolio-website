@@ -117,28 +117,7 @@
   .text-container {
     text-align: justify;
   }
-  .typewriter {
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
-    color: rgb(53, 53, 53);
-    width: 0;
-    margin: 0 auto;
-    height: 40px;
-    overflow: hidden;
-    animation: typing-mb 3s steps(20, end) forwards, blink 0.75s infinite;
-    white-space: nowrap;
-    border: none;
-  }
 
-  @keyframes typing-mb {
-    from {
-      width: 0;
-    }
-    to {
-      width: 100%;
-      border: none;
-    }
-  }
   #overlay {
     background-color: white;
   }

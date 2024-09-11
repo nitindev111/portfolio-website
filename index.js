@@ -20,6 +20,6 @@ function closeOverlay() {
 function downloadResume(url) {
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'Nitin_Dev_FullStack_Dev_Resume.pdf'; // Customize download file name
+    a.download = 'Nitin_Dev_Frontend_Resume.pdf';
     a.click();
 }
