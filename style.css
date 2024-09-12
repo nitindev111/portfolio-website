@@ -7,11 +7,16 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.desktop-nav {
+#desktop-nav {
   display: flex;
   justify-content: space-around;
-  height: 20vh;
+  height: 10vh;
   align-items: center;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+  top: 0;
 }
 
 html {
@@ -35,6 +40,10 @@ nav,
 .logo {
   font-size: 2rem;
   cursor: default;
+}
+
+.logo img {
+  height: 10vh;
 }
 
 nav {
@@ -142,15 +151,16 @@ a:hover {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: 90vh;
 }
 
 section {
-  padding-top: 4vh;
+  padding-top: 10vh;
   height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
+  /* margin-top: 14vh; */
 }
 
 .section-container {
@@ -350,6 +360,9 @@ article .icon {
   border-radius: 2rem;
   width: 90%;
   height: 90%;
+  object-fit: cover;
+  object-position: center;
+  max-height: 400px;
 }
 .project-title {
   margin: 1rem;
