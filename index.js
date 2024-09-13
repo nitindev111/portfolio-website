@@ -23,3 +23,16 @@ function downloadResume(url) {
     a.download = 'Nitin_Dev_Frontend_Resume.pdf';
     a.click();
 }
+
+function scrollToTop(event) {
+    if (event) {
+        event.preventDefault(); // Prevent default anchor behavior
+    }
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+    if (window.location.hash) {
+        history.replaceState(null, null, ' ');
+    }
+}

@@ -40,6 +40,7 @@ nav,
 .logo {
   font-size: 2rem;
   cursor: default;
+  cursor: pointer;
 }
 
 .logo img {
