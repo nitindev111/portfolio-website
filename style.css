@@ -483,3 +483,8 @@ footer p {
   bottom: 40px;
   width: 300px;
 }
+
+.coming-soon {
+  filter: blur(2px);
+  pointer-events: none;
+}
